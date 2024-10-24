@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+    color:lime;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+nav a {
+    color: lime;
+}
+
+.spotify{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin-top: 12px;
+    margin-left: 120px;
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(10px 7px 10px darkgreen);
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 18px;
+    margin-left: 210px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.cabeca{
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    height: 65px;
+    color: lime;
+    background-color: black;
+    z-index: 2;
+    display: flex;
+    margin-top: 0px;
+    border-bottom: 30px;
+    padding: 25px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.img2{
+    border-radius: 10px;
+    box-shadow: 10px 7px 20px lime;
+}
+
+.composition{
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+span{
+    color: lime;
+}
+
+.wrapper{
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 120px;
+    border: solid lime 8px;
+    border-radius: 20px;
+    background-color: darkgreen;
+    color: white;
+}
+
+.wrapper2{
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    flex-direction: column;
+}
+
+.wrapper3{
+    display: inline-block;
+    flex-direction: column;
+}

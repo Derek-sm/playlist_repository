@@ -1,0 +1,95 @@
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: white;
+    color: lime;
+}
+
+nav a {
+    color: lime;
+}
+
+.spotify{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin-top: 12px;
+    margin-left: 120px;
+    width: 90px;
+    height: 90px;
+    filter: drop-shadow(10px 7px 10px darkgreen);
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 18px;
+    margin-left: 210px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.cabeca{
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    height: 65px;
+    color: lime;
+    background-color: black;
+    z-index: 2;
+    display: flex;
+    margin-top: 0px;
+    border-bottom: 30px;
+    padding: 25px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.wrapp{
+    color: lime;
+    height: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 120px;
+    flex-wrap: wrap;
+    border: 20px;
+    background-color: DarkGreen;
+    gap: 30px;
+    border-radius: 30px;
+    border:solid lime 6px;
+}
+
+li{
+    color: lime;
+    width: 30%;
+    border-radius: 20px;
+    background-color: black;
+    font-size: 18px;
+    z-index: 1;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a{
+    color: white;
+}
+
+
+audio::-webkit-media-controls-panel{
+    background-color: lime;
+}
+
+ul li img{
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 7px 20px lime;
+}
